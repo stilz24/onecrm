@@ -18,5 +18,17 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "if [ ! -d node_modules/react-scripts ]; then npm install react-scripts; fi"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
